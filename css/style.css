@@ -1,0 +1,49 @@
+html { height: 100%; }
+
+body {
+  font-family: sans-serif;
+  height: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.giant-title {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  margin: 0;
+ }
+.big-font { font-size: 1rem; }
+
+@media only screen and (min-width : 30rem) {
+  .giant-title { font-size: 2rem }
+  .big-font { font-size: 1rem; }
+}
+
+@media only screen and (min-width: 48rem) {
+  .giant-title {
+    font-size: 3rem;
+    padding: 3rem 0;
+ }
+  .big-font { font-size: 1.25rem; }
+}
+
+@media only screen and (min-width: 60rem) {
+  .giant-title {
+    font-size: 10rem;
+    padding: 4rem 0;
+  }
+  .big-font { font-size: 1.5rem; }
+}
+
+@media only screen and (min-width: 80rem) {
+  .giant-title { font-size: 12rem }
+  .big-font { font-size: 1.75rem; }
+}
+
+.toward-bottom {
+  bottom: 10vh;
+}
